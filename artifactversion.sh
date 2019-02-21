@@ -14,4 +14,5 @@ funk="${major_version}.${minor_version}.$(( ${hotfix_version}+1))"
 sed "s/version=.*/version='$funk-SNAPSHOT',/g"  setup.py >2.txt
 mv 2.txt setup.py
 rm 1.txt
+git add .
 git commit -m "updated version"
