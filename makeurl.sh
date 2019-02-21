@@ -7,4 +7,3 @@ echo "http://nexus:8081/repository/pypi/packages/python-calculator/${release_ver
 wget http://nexus:8081/repository/pypi/packages/python-calculator/${release_version}-SNAPSHOT/Python-Calculator-${snapshot_version}.tar.gz
 tar xvzf Python-Calculator-${snapshot_version}.tar.gz
 rm Python-Calculator-${snapshot_version}.tar.gz
-
