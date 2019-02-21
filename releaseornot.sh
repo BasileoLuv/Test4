@@ -6,7 +6,8 @@ echo $currrelease
 
 if [[  $currsnapshot <  $currrelease ]]
 then 
-	echo "stop it"
+	exit 1
 else 
 	git merge $(cat newcommit.txt)
+	git tag $(cat newcommit.txt)
 fi
