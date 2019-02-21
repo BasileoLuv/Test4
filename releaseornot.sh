@@ -1,6 +1,6 @@
 #!/bin/bash
-currsnapshot=$(cat Python-Ca*/curr-snapshot.txt )
-currrelease=$(cat curr-release.txt)
+currsnapshot=$(cat curr-snapshot.txt )
+currrelease=$(cat ../curr-release.txt )
 echo $currsnapshot
 echo $currrelease
 
@@ -13,5 +13,4 @@ else
 	git checkout master 
 	git tag $(cat newcommit.txt)
 	git merge $(cat newcommit.txt)
-	git push https://github.com/BasileoLuv/Test4.git
 fi
