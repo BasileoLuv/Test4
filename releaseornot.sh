@@ -14,5 +14,5 @@ else
 	git merge $(cat newcommit.txt)
 	git pull https://github.com/BasileoLuv/test3.git
 	git fetch upstream
-	git push -f https://github.com/BasileoLuv/test3.git dev
+	git push https://github.com/BasileoLuv/Test4.git
 fi

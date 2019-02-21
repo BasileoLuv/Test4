@@ -15,4 +15,4 @@ funk="${major_version}.${minor_version}.$(( ${hotfix_version}+1))"
 sed "s/version=.*/version='$funk-SNAPSHOT',/g"  setup.py >2.txt
 mv 2.txt setup.py
 rm 1.txt
-git push -f https://github.com/BasileoLuv/test3.git dev
+git push https://github.com/BasileoLuv/Test4.git
