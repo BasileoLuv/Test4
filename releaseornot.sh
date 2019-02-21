@@ -8,8 +8,6 @@ if [[  $currsnapshot <  $currrelease ]]
 then 
 	echo "stop it"
 else 
-	cd Python-Ca*/
-	pwd
 	git checkout master 
 	git tag $(cat newcommit.txt)
 	git merge $(cat newcommit.txt)
