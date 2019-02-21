@@ -16,4 +16,3 @@ mv dist/Python_Calculator* dist/Python-Calculator-$version-$test1-py2-none-any.w
 rm 3.txt 
 echo First job is successfully
 python2.7 -m twine upload dist/* --repository-url http://nexus:8081/repository/pypi/ -u admin -p admin123 --skip-existing
-mv curr-snapshot.txt curr-release.txt
