@@ -1,5 +1,4 @@
 #!/usr/bin/sh
-cd Python-*
 git checkout dev
 grep version $1 setup.py >1.txt
 cut -d= -f2 1.txt >2.txt
