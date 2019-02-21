@@ -7,4 +7,3 @@ echo "http://localhost:8089/repository/pypi/packages/python-calculator/${release
 wget http://localhost:8089/repository/pypi/packages/python-calculator/${release_version}-SNAPSHOT/Python-Calculator-${snapshot_version}.tar.gz
 tar xvzf Python-Calculator-${snapshot_version}.tar.gz
 rm Python-Calculator-${snapshot_version}.tar.gz
-#sh releaseornot.sh
