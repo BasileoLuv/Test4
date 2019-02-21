@@ -13,5 +13,4 @@ else
 	git checkout master 
 	git tag $(cat newcommit.txt)
 	git merge $(cat newcommit.txt)
-	git push https://BasileoLuv:b2890a71b4ba5434f8995682ee8868cfc27250ca@github.com/BasileoLuv/Test4.git
 fi
