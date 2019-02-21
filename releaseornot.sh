@@ -1,6 +1,6 @@
 #!/bin/bash
-currsnapshot=$(cat Python-Ca*/curr-snapshot.txt )
-currrelease=$(cat curr-release.txt)
+currsnapshot=$(cat curr-snapshot.txt )
+currrelease=$(cat ../curr-release.txt )
 echo $currsnapshot
 echo $currrelease
 
