@@ -16,5 +16,4 @@ mv 2.txt setup.py
 rm 1.txt
 rm -r Python-*
 git add .
-git commit -m "bump version"
-git push https://github.com/BasileoLuv/Test4.git
+git commit -m "updated version"
